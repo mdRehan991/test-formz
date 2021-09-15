@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Test Form</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+
+        <div id="divh1">
+            <a href="#" style="padding-right: 20px;">Home</a>
+            <a href="#">Quick Help</a>
+        </div>
+
+        <div id="divh2">
+            <p>TO THE NEW</p>
+        </div>
+        
+    </header>
+
+    <section>
+
+        <h3>Bug Report</h3>
+
+        <form action="/">
+
+            <label for="ttl">Title:*</label><br>
+            <input type="text" id="ttl" name="title"><br>
+
+            <label for="dpt">Description:*</label><br>
+            <textarea name="description" id="dpt" cols="30" rows="4"></textarea><br>
+
+            <label for="os">Operating System:</label><br>
+
+            <select name="os" id="os">
+            <option value="Windows">Windows</option>
+            <option value="MacOS">MacOS</option>
+            <option value="Linux">Linux</option>
+            <option value="Android">Android</option>
+            <option value="IOS">IOS</option>   
+            </select><br>
+
+            <label for="pdt">Product:*</label><br>
+
+            <select name="product" id="pdt">
+            <option value="Desktop">Desktop</option>
+            <option value="MacBook">MacBook Pro</option>
+            <option value="Laptop">Laptop</option>
+            <option value="Smartphone">Smartphone</option>
+            <option value="IPhone">IPhone</option>   
+            </select><br>
+            
+            <label for="vs">Version:*</label><br>
+            <input type="text" id="vs" name="version"><br>
+
+            <label id="lb">License:</label><br>
+            <input type="radio" id="fr" name="free" value="free">
+            <label for="fr">Free</label>
+            <input type="radio" id="bs" name="business" value="business">
+            <label for="bs">Business</label><br>
+
+            <label for="srv">Severity:</label><br>
+
+            <select name="severity" id="srv"><br>
+            <option value="Critical">Critical</option>  
+            </select><br>
+
+            <label for="myfile">Attachment:</label><br>
+            <input type="file" id="myfile" name="myfile"><br>
+            
+            <input type="submit" value="Send">
+            
+          </form>
+
+    </section>
+    
+</body>
+</html>
